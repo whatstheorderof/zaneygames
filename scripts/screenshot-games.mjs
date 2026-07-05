@@ -8,6 +8,7 @@ const games = [
   { slug: "zaney-links", url: "https://zaneylinks.vercel.app/" },
   { slug: "zaney-cube", url: "https://zaneycube.vercel.app/" },
   { slug: "zaney-word", url: "https://zaneyword.vercel.app/" },
+  { slug: "zaney-search", url: "https://zaneysearch.vercel.app/" },
   { slug: "say-more", url: "https://saymoregame.com/" },
 ];
 
