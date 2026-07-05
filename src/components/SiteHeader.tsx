@@ -1,23 +1,25 @@
-import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-
 export function SiteHeader() {
   return (
-    <header className="border-b border-stone-800 bg-stone-950/80 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500 font-black text-stone-950">
-            Z
-          </div>
-          <div>
-            <p className="text-lg font-semibold text-stone-50">Zaney Games</p>
-            <p className="text-xs text-stone-500">A whole universe of daily puzzles.</p>
-          </div>
-        </Link>
-        <nav className="flex items-center gap-3 text-sm">
-          <Badge>Portfolio</Badge>
-        </nav>
+    <header id="top" className="border-b border-white/15">
+      <div className="px-4 pt-10 pb-6 sm:px-8">
+        <h1 className="text-[clamp(2.5rem,13vw,11rem)] font-black uppercase leading-none tracking-tighter">
+          Zaney.Games
+        </h1>
       </div>
+      <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-white/15 px-4 py-3 text-[11px] font-medium uppercase tracking-[0.2em] text-white/60 sm:px-8">
+        <a href="#top" className="hover:text-white">
+          Index
+        </a>
+        <a href="#info" className="hover:text-white">
+          Info
+        </a>
+        <a href="#works" className="hover:text-white">
+          Works
+        </a>
+        <a href="#contact" className="hover:text-white">
+          Contact
+        </a>
+      </nav>
     </header>
   );
 }
