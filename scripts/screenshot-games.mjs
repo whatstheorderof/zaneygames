@@ -9,7 +9,9 @@ const games = [
   { slug: "zaney-cube", url: "https://zaneycube.vercel.app/" },
   { slug: "zaney-word", url: "https://zaneyword.vercel.app/" },
   { slug: "zaney-search", url: "https://zaneysearch.vercel.app/" },
+  { slug: "zaney-logic", url: "https://zaneylogic.vercel.app/" },
   { slug: "say-more", url: "https://saymoregame.com/" },
+  { slug: "saz-sky-roads", url: "https://sazskyroads.vercel.app/" },
 ];
 
 const outDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "public", "screenshots");
@@ -27,6 +29,11 @@ for (const game of games) {
     if (await skipButton.isVisible().catch(() => false)) {
       await skipButton.click();
       await page.waitForTimeout(300);
+    }
+    const startButton = page.getByText(/^start$/i);
+    if (await startButton.isVisible().catch(() => false)) {
+      await startButton.click();
+      await page.waitForTimeout(1500);
     }
     await page.keyboard.press("Escape");
     await page.waitForTimeout(300);

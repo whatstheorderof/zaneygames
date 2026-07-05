@@ -56,6 +56,14 @@ export const zaneyGames: Game[] = [
     url: "https://zaneysearch.vercel.app/",
     status: "live",
   },
+  {
+    slug: "zaney-logic",
+    name: "Zaney Logic",
+    tagline: "A new logic deduction case to crack every day.",
+    category: "Logic",
+    url: "https://zaneylogic.vercel.app/",
+    status: "live",
+  },
 ];
 
 export const otherGames: Game[] = [
@@ -65,6 +73,14 @@ export const otherGames: Game[] = [
     tagline: "A game about saying more than you should.",
     category: "Party",
     url: "https://saymoregame.com/",
+    status: "live",
+  },
+  {
+    slug: "saz-sky-roads",
+    name: "SAZ: Sky Roads",
+    tagline: "A neon flight through Dante's nine circles.",
+    category: "Arcade",
+    url: "https://sazskyroads.vercel.app/",
     status: "live",
   },
 ];
