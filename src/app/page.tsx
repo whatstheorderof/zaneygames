@@ -1,6 +1,6 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { GameCard } from "@/components/GameCard";
+import { GamesGrid } from "@/components/GamesGrid";
 import { zaneyGames, otherGames } from "@/lib/games";
 
 export default function HomePage() {
@@ -15,24 +15,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        <section id="works" className="px-4 py-12 sm:px-8">
-          <div className="grid gap-x-8 gap-y-16 sm:grid-cols-2">
-            {zaneyGames.map((game) => (
-              <GameCard key={game.slug} game={game} />
-            ))}
-          </div>
-        </section>
-
-        <section className="border-t border-white/15 px-4 py-12 sm:px-8">
-          <h2 className="mb-8 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
-            Other games
-          </h2>
-          <div className="grid gap-x-8 gap-y-16 sm:grid-cols-2">
-            {otherGames.map((game) => (
-              <GameCard key={game.slug} game={game} />
-            ))}
-          </div>
-        </section>
+        <GamesGrid zaneyGames={zaneyGames} otherGames={otherGames} />
 
         <section id="info" className="border-t border-white/15 px-4 py-16 sm:px-8">
           <h2 className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
@@ -51,10 +34,10 @@ export default function HomePage() {
             Contact
           </h2>
           <a
-            href="mailto:hello@zaney.games"
+            href="mailto:deathbyleisure@gmail.com"
             className="block text-3xl font-bold uppercase tracking-tight hover:text-white/70 sm:text-5xl"
           >
-            hello@zaney.games
+            deathbyleisure@gmail.com
           </a>
         </section>
       </main>

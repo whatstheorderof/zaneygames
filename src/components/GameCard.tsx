@@ -4,7 +4,7 @@ import type { Game } from "@/lib/games";
 export function GameCard({ game }: { game: Game }) {
   return (
     <a href={game.url} target="_blank" rel="noopener noreferrer" className="group block">
-      <div className="mb-3 flex items-baseline justify-between gap-3">
+      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
         <h3 className="text-lg font-bold uppercase tracking-tight group-hover:text-white/70">
           {game.name}
         </h3>

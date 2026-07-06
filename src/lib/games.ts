@@ -85,7 +85,7 @@ export const otherGames: Game[] = [
   },
   {
     slug: "saz-sky-roads",
-    name: "SAZ: Sky Roads",
+    name: "SAZ: Sky Roads The Game",
     tagline: "A neon flight through Dante's nine circles.",
     category: "Arcade",
     url: "https://sazskyroads.vercel.app/",
