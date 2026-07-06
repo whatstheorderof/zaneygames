@@ -11,6 +11,8 @@ const games = [
   { slug: "zaney-search", url: "https://zaneysearch.vercel.app/" },
   { slug: "zaney-logic", url: "https://zaneylogic.vercel.app/" },
   { slug: "zaney-strands", url: "https://zaneystrands.vercel.app/" },
+  { slug: "zaney-kakuro", url: "https://zaneykakuro.vercel.app/" },
+  { slug: "zaney-aquarium", url: "https://zaneyaquarium.vercel.app/" },
   { slug: "say-more", url: "https://saymoregame.com/" },
   { slug: "saz-sky-roads", url: "https://sazskyroads.vercel.app/" },
 ];

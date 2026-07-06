@@ -72,6 +72,22 @@ export const zaneyGames: Game[] = [
     url: "https://zaneystrands.vercel.app/",
     status: "live",
   },
+  {
+    slug: "zaney-kakuro",
+    name: "Zaney Kakuro",
+    tagline: "Crossword meets arithmetic.",
+    category: "Puzzle",
+    url: "https://zaneykakuro.vercel.app/",
+    status: "live",
+  },
+  {
+    slug: "zaney-aquarium",
+    name: "Zaney Aquarium",
+    tagline: "A tiny pastel puzzle world — rotate, slide, flow.",
+    category: "Puzzle",
+    url: "https://zaneyaquarium.vercel.app/",
+    status: "live",
+  },
 ];
 
 export const otherGames: Game[] = [
