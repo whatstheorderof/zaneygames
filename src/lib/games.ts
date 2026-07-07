@@ -107,6 +107,14 @@ export const otherGames: Game[] = [
     url: "https://sazskyroads.vercel.app/",
     status: "live",
   },
+  {
+    slug: "witch-please",
+    name: "Witch Please",
+    tagline: "Weave paths through a floating world to reach the moonlit gate.",
+    category: "Adventure",
+    url: "https://witchplease.vercel.app/",
+    status: "live",
+  },
 ];
 
 export const allGames: Game[] = [...zaneyGames, ...otherGames];
