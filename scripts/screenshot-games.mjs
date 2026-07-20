@@ -16,6 +16,7 @@ const games = [
   { slug: "say-more", url: "https://saymoregame.com/" },
   { slug: "saz-sky-roads", url: "https://sazskyroads.vercel.app/" },
   { slug: "witch-please", url: "https://witchplease.vercel.app/" },
+  { slug: "dbl-games", url: "https://dblgames.vercel.app/" },
 ];
 
 const outDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "public", "screenshots");

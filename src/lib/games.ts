@@ -115,6 +115,14 @@ export const otherGames: Game[] = [
     url: "https://witchplease.vercel.app/",
     status: "live",
   },
+  {
+    slug: "dbl-games",
+    name: "DBL Games",
+    tagline: "1,800+ free games, unblocked and always on.",
+    category: "Portal",
+    url: "https://dblgames.vercel.app/",
+    status: "live",
+  },
 ];
 
 export const allGames: Game[] = [...zaneyGames, ...otherGames];
